@@ -40,7 +40,7 @@ def preprocessing(df):
 
     date column 전처리
     1. int형 변환
-    2. 최근 7일간 데이터만 남김
+    2. 최근 10일간 데이터만 남김
 
     '''
 
@@ -56,7 +56,7 @@ def preprocessing(df):
     df = df[df['date'] != 'nan']
     df['date'] = df['date'].apply(lambda x:int(''.join(str(x).split('-'))))
 
-    recent = datetime.now() - relativedelta(days=14)
+    recent = datetime.now() - relativedelta(days=10)
     recent = int(recent.strftime('%Y%m%d'))
     df = df[df['date'] >= recent]
     df = df.reset_index(drop=True)
