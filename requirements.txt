@@ -1,0 +1,15 @@
+requests==2.26.0
+numpy==1.21.0
+pandas==1.2.5
+matplotlib==3.4.2
+altair==4.1.0
+streamlit==0.85.0
+pydeck==0.6.2
+networkx==2.5.1
+plotly==5.1.0
+apyori==1.1.2
+bs4==4.6.0
+selenium==3.9.0
+elasticsearch
+streamlit-agraph
+streamlit-vega-lite
