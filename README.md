@@ -73,7 +73,7 @@
         jeju-travel-trend-dashboard
         ├── data
         │   └── all.csv
-        ├── ***elasticsearch-"version"***
+        ├── elasticsearch-"version"
         ├── etc
         │   ├── chromedriver.exe
         │   ├── insta_places_info.csv
