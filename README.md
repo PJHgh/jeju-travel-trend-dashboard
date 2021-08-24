@@ -69,20 +69,22 @@
         2. window 압축 파일 다운로드 (version 확인)
         3. 압축 해제
     - directory setting
-        > jeju-travel-trend-dashboard
-        > ├── data
-        > │   └── all.csv
-        > ├── ***elasticsearch-"version"***
-        > ├── etc
-        > │   ├── chromedriver.exe
-        > │   ├── insta_places_info.csv
-        > │   └── stoptags
-        > ├── crawling.sh
-        > ├── insta_crawling.py
-        > ├── README.md
-        > ├── travel_trends.py
-        > ├── utils.py
-        > └── requirements.txt
+        ```
+        jeju-travel-trend-dashboard
+        ├── data
+        │   └── all.csv
+        ├── ***elasticsearch-"version"***
+        ├── etc
+        │   ├── chromedriver.exe
+        │   ├── insta_places_info.csv
+        │   └── stoptags
+        ├── crawling.sh
+        ├── insta_crawling.py
+        ├── README.md
+        ├── travel_trends.py
+        ├── utils.py
+        └── requirements.txt
+        ```
     - Enter path
         - elasticsearch-"version"/config/elasticsearch.yml
             ```yaml
